@@ -1,0 +1,29 @@
+button {
+    color: blueviolet;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 15%;
+    /* flex: 1; */
+    background-color: orange
+    
+}
+
+div {
+    height: 100px;
+    border: 1px solid aqua;
+    display: flex;
+    /* can add flex-direction: column here */
+    justify-content: space-between; /* justify is horizontal. center, flex-end is to the right */
+    align-items: center; /* vertically aligns */
+}
+button:nth-of-type(3) {
+    align-self: flex-start;
+}
+
+button:nth-of-type(4) {
+    margin-left: auto
+}
+
+button:nth-of-type(2) {
+    order: 3;
+}
