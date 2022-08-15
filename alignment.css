@@ -12,7 +12,7 @@ div {
     height: 100px;
     border: 1px solid aqua;
     display: flex;
-    /* can add flex-direction: column here */
+    /* can add flex-direction: column here  */
     justify-content: space-between; /* justify is horizontal. center, flex-end is to the right */
     align-items: center; /* vertically aligns */
 }
