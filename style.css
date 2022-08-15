@@ -19,9 +19,20 @@ h1 {
 }
 
 article {
+  flex: 1 150px; /* can specify a certain width eg 200px or use 1 */
   padding: 10px;
   margin: 10px;
   background: aqua;
 }
 
+article:nth-of-type(2)  {
+  flex: 2 300px;
+}
+
 /* Add your flexbox CSS below here */
+
+section { /* this tells us we want everything in the section area to be flex - default horizontal layout */
+  display: flex; /* by default it gives each area the same width - subtracted margins + divided remainder */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
